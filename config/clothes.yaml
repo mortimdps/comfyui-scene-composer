@@ -23,3 +23,76 @@ top:
 bottom:
   types: [pants, shorts, skirt]
   colors: *colors
+
+undressed:
+  repeat: [1, 2]
+  types: [top-undressed, bottom-undressed]
+half: [half-clothes, half-underwear]
+top-undressed:
+  [topless, breasts_out, one_breast_out]
+bottom-undressed:
+  [bottomless]
+half-clothes:
+  [lift, pull, removed, grab, in_mouth]
+half-underwear:
+  bra: [lift, pull, removed]
+  panties: [lift, pull, removed, aside, on_head, in_mouth]
+  panties-around: [one_leg, one_ankle, ankles]
+  types: [panties, panties-around]
+
+swimsuit:
+  bikini:
+    types: [string, micro, ""]
+    colors: *colors
+  one-piece:
+    cleavage:
+      probability: 0.5
+      types: [cleavage]
+      cutout:
+        probability: 0.5
+        types: [cutout]
+    colors: *colors
+  boob:
+    probability: 0.5
+    types: [under, side]
+  see-through-swimsuit:
+    probability: 0.5
+    types: [see_through_swimsuit]
+  types: [bikini, one-piece]
+
+uniform:
+  colors: *colors
+  types: [military, school, gym, police, employee, naval]
+
+bra:
+  colors: *colors
+  types: [bra]
+  extras:
+    probability: 0.3
+    types: [see-through, wet]
+
+panties:
+  colors: *colors
+  types: [panties, thong]
+  extras:
+    probability: 0.3
+    types: [striped, see-through, wet]
+
+socks:
+  colors: *colors
+  types: [socks]
+  extras:
+    probability: 0.3
+    types: [fishnet, pantyhose, kneehigh]
+
+types: [
+  clothed,
+#  swimsuit
+]
+
+states: [
+  #clothed,
+  half-clothed,
+  # underwear,
+  #nude
+]

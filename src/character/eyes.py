@@ -21,10 +21,15 @@ class Eyes(Component):
         color = stringify_tags(eyewear["colors"])
         colored_element = stringify_tags(eyewear["colored_element"])
 
+        if colored_element != "":
+            tint = f"{color}-{colored_element} {suffix}"
+        else:
+            tint = "opaque glasses"
+
         if type == "":
             return []
         else:
             return [
                 f"{type}",
-                f"{color}-{colored_element} {suffix}",
+                tint,
             ]

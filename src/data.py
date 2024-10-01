@@ -67,7 +67,7 @@ class Data:
 
         # Probability to keep the tags
         if not is_true(self.temp_seed, p):
-            return ""
+            return [""]
 
         # Recursive selection of tags
         if isinstance(tags, dict):
