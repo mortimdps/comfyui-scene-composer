@@ -87,12 +87,12 @@ socks:
 
 types: [
   clothed,
-#  swimsuit
+  swimsuit
 ]
 
 states: [
-  #clothed,
+  clothed,
   half-clothed,
   # underwear,
-  #nude
+  nude
 ]
