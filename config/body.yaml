@@ -1,0 +1,45 @@
+tattoo_type: [
+  "flower tattoo:0.33",
+  "tribal tattoo:0.33",
+  "tattoo:0.34",
+  ":9"
+]
+tattoo_location: [
+  "arm tattoo",
+  "neck tattoo",
+  "shoulder tattoo",
+  "full-body tattoo"
+]
+
+freckles: [
+  "freckles:0.4",
+  ":0.6"
+]
+
+tanlines: [
+  "tanlines:0.25",
+  ":0.75"
+]
+
+chest: [
+  "flat chest:0.1",
+  "small breasts",
+  "medium breasts",
+  "large breasts",
+  "huge breasts"
+]
+
+body_type: [
+  "petite",
+  "plump",
+  "curvy",
+  "muscular female:0.2",
+  "fat:0.2",
+  ""
+]
+
+skin_color: [
+    "pale",
+    "dark",
+    ""
+]

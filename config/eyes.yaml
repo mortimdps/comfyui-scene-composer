@@ -1,0 +1,42 @@
+define:
+  &colors [
+    aqua,
+    black,
+    blue,
+    brown,
+    green,
+    grey,
+    orange,
+    pink,
+    purple,
+    red,
+    white,
+    yellow,
+  ]
+
+type:
+  ["eyes-covered:0.1", "eyes-uncovered"]
+
+eyes-covered:
+  ["blindfold", "covered eyes"]
+
+eyes-uncovered:
+  type: ["unicolor", "multicolor"]
+  glowing: ["glowing eyes:0.3", ""]
+  glasses: ["glasses", ""]
+
+glasses:
+  type: ["sun:0.6", ""]
+  round-eyewear: ["round eyewear", ""]
+  colored:
+    type: [
+      "tinted", "opaque"
+    ]
+    colors: *colors
+
+unicolor-eyes:
+  color: *colors
+
+multicolor-eyes:
+  color-one: *colors
+  color-two: *colors

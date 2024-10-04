@@ -1,0 +1,24 @@
+doggystyle:
+  types: [doggystyle, top_down_bottom_up, face_down, prone_bone, bent_over]
+
+cowgirl:
+  types: [reverse, squatting]
+
+standing_sex:
+  types: [standing_split, congress, nelson]
+
+piledriver:
+  types: [piledriver, anvil_position, mating_press]
+
+handjob:
+  types: [two_handed, reverse_grip, ""]
+
+blowjob:
+  types: [fellatio, irrumatio, deepthroat]
+
+paizuri:
+  types: [straddling_paizuri, paizuri_on_lap]
+  clothes: [over, under]
+
+types:
+  [doggystyle, cowgirl, standing_sex, piledriver, handjob, blowjob, paizuri]

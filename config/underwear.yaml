@@ -1,0 +1,45 @@
+define:
+  &colors [
+    aqua,
+    black,
+    blue,
+    brown,
+    green,
+    grey,
+    orange,
+    pink,
+    purple,
+    red,
+    white,
+    yellow,
+  ]
+
+
+bra:
+  colors: *colors
+
+panties:
+  colors: *colors
+  type: ["panties", "thong"]
+
+swimsuit:
+  type: ["bikini", "one-piece"]
+
+bikini:
+  colors: *colors
+  type: ["string:0.25", "micro:0.25", ":0.5"]
+
+one-piece:
+  colors: *colors
+
+legwear:
+  type: [
+    "kneehighs",
+    "pantyhose",
+    "thighhighs",
+    "leggings"
+  ]
+  style: [
+    "black", "colored", "striped", "fishnet"
+  ]
+  colors: *colors

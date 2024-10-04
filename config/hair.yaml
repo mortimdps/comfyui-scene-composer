@@ -1,0 +1,90 @@
+define-hair-colors-standard:
+  &hair-colors-standard [
+    "black",
+    "blonde",
+    "brown",
+    "ginger",
+    "silver",
+    "white"
+  ]
+define-hair-colors-special:
+  &hair-colors-special [
+    "red",
+    "blue",
+    "green",
+    "purple",
+    "pink",
+    "aqua"
+  ]
+define-hair-decoration-colors:
+  &hair-decoration-colors [
+    black,
+    grey,
+    white,
+    red,
+    blue,
+    green,
+    yellow,
+    orange,
+    purple,
+    aqua,
+    pink
+  ]
+hair_color_uniform: [
+  "hair-color-standard",
+  "hair-color-special:0.2"
+]
+
+hair-multicolor: [
+  "split-color",
+  "gradient"
+]
+
+colored-tips: [
+  "colored tips",
+  ""
+]
+
+hair-color-special: *hair-colors-special
+hair-color-standard: *hair-colors-standard
+
+hair-color-multicolor-colors:
+  hair-one: *hair-colors-standard
+  hair-two: *hair-colors-standard
+
+unicolor_or_multicolor: [
+  "hair-unicolor:0.8",
+  "hair-multicolor:0.2"
+]
+
+length: [
+  "short:0.25",
+  "medium:0.25",
+  "long:0.25",
+  "very long:0.25",
+  "big:0.05"
+]
+
+style: [
+  "straight",
+  "curly",
+  "wavy",
+  "messy",
+  ":0.2"
+]
+
+braid: [
+  "ponytail",
+  "braid",
+  "twin braids",
+  "hair bun",
+  "double bun"
+]
+
+decoration: [
+  "hair flower",
+  "hair ribbon",
+  ":0.5"
+]
+
+decoration-color: *hair-decoration-colors

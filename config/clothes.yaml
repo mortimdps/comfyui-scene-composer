@@ -15,11 +15,34 @@ define:
   ]
 
 vest:
-  types: [vest, waistcoat]
+  types: [jacket, vest, coat]
   colors: *colors
 top:
-  types: [shirt, blouse, sweater, jacket, coat]
+  types: ["tank top", "shirt", "sweater", "blouse"]
   colors: *colors
 bottom:
-  types: [pants, shorts, skirt]
+  types: ["shorts", "pants", "legging", "skirt", "jeans"]
   colors: *colors
+skirt:
+  length: ["mini", "medium", "long"]
+
+dress:
+  china: [
+    "china:0.1",
+    ""
+  ]
+  length: [
+    "short",
+    "medium",
+    "long"
+  ]
+  sleeves: [
+    "sleeveless:0.25",
+    "off-shoulder:0.25",
+    ":0.5"
+  ]
+  colors: *colors
+
+uniform:
+  colors: *colors
+  types: [military, school, gym, police, employee, naval]
